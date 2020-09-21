@@ -1,0 +1,83 @@
+﻿@model MedAide.Models.Signup
+
+
+
+@{
+    ViewBag.Title = "SignUp";
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+<div class="pagebackground">
+    <div class="message warning">
+        <div class="inset">
+            <div class="login-head">
+                <h1>SignUp Form</h1>
+                <div class="alert-close"> </div>
+            </div>
+
+
+            @using (Html.BeginForm("SignUP", "SignUp", FormMethod.Post, new { @class = "signupform" }))
+
+            {
+                <li class="radios">
+
+                    @Html.RadioButtonFor(model => model.usertype, "Patient", new { @required = "true" })
+
+                    <label for="male">Patient</label>
+
+                    @Html.RadioButtonFor(model => model.usertype, "Doctor", new { @required = "true" })
+                    <label for="female">Doctor</label>
+
+                    @Html.RadioButtonFor(model => model.usertype, "DrugStore", new { @required = "true" })
+                    <label for="other">Drugstore</label>
+
+                    @Html.RadioButtonFor(model => model.usertype, "DiagnosticCenter", new { @required = "true" })
+                    <label for="other">Diagnostic</label>
+                </li>
+                <li>
+                    @*<input type="text" class="text" value="Username" onfocus="this.value = '';" onblur="if (this.value == '') { this.value = 'Username'; }"> <a href="#" class=" icon user"></a>*@
+                    @Html.TextBoxFor(model => model.name, new { @placeholder = " Name", @required = "true" })
+                </li>
+
+                <div class="clear"> </div>
+                <li>
+                    @*<input type="text" class="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') { this.value = 'Email'; }"> <a href="#" class="icon lock"></a>*@
+                    @Html.TextBoxFor(model => model.email, new { @placeholder = "Email", @required = "true" })
+                </li>
+
+                <div class="clear"> </div>
+                <li>
+
+                    @Html.PasswordFor(model => model.password, new { @placeholder = "Password", @minlength = "8", @required = "true" })
+                </li>
+
+                <div class="clear"></div>
+                <li>
+                    @*<input type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') { this.value = 'ConfirmPassword'; }"> <a href="#" class="icon lock"></a>*@
+                    @Html.PasswordFor(model => model.confirmpassword, new { @placeholder = "Confrrm Password", @minlength = "8", @required = "true" })
+                </li>
+
+                <div class="clear"></div>
+                <li>
+                    @ViewBag.a
+                </li>
+
+ 
+                <div class="submit">
+                    <input type="submit" value="Sign Up">
+                    <div class="clear"> </div>
+                </div>
+            }
+
+
+
+
+        </div>
+    </div>
+
+    <div class="clear"> </div>
+
+
+
+
+

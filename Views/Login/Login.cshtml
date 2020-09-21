@@ -1,0 +1,60 @@
+﻿@model MedAide.Models.login
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="pagebackground">
+    <div class="message warning">
+        <div class="inset">
+            <div class="login-head">
+                <h1>Login Form</h1>
+                <div class="alert-close"> </div>
+            </div>
+
+            @using (Html.BeginForm("Login", "Login", FormMethod.Post, new { @class = "loginform" }))
+            {
+                <li class="radios">
+
+                    @Html.RadioButtonFor(model => model.usertype, "Patient", new { @required = "true" })
+
+                    <label for="male">Patient</label>
+
+                    @Html.RadioButtonFor(model => model.usertype, "Doctor")
+                    <label for="female">Doctor</label>
+
+                    @Html.RadioButtonFor(model => model.usertype, "DrugStore")
+                    <label for="other">Drugstore</label>
+
+                    @Html.RadioButtonFor(model => model.usertype, "DiagnosticCenter")
+                    <label for="other">Diagnostic</label>
+                    @Html.ValidationMessageFor(model => model.usertype, null, new { @class = "text text-danger" })
+                </li>
+
+                <li>
+
+                    @Html.TextBoxFor(model => model.email, new { @placeholder = "Email", @required = "true" })
+                </li>
+                <div class="clear"> </div>
+                <li>
+                    @*<input type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}"> <a href="#" class="icon lock"></a>*@
+                    @Html.PasswordFor(model => model.password, new { @placeholder = "Password", @minlength = "8", @required = "true" })
+                </li>
+                <li>@ViewBag.a</li>
+
+                <div class="clear"> </div>
+                <div class="submit">
+                    <input type="submit" value="Sign in">
+                    <div class="clear">  </div>
+                </div>
+            }
+
+        </div>
+    </div>
+</div>
+
+<div class="clear"> </div>
+
+
+
+

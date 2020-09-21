@@ -1,0 +1,114 @@
+﻿@model MedAide.Models.DrugStoreAndDiagnosticCenterViewProfile
+@{
+    ViewBag.Title = "ViewProfile";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+div class="pagebackground">
+<div class="message warning">
+    <div class="inset">
+        <div class="login-head">
+            <h1>User  Profile</h1>
+            <div class="alert-close"> </div>
+        </div>
+
+
+
+        <div class="viewprofileform arnab">
+
+            
+            <li>
+                <label>
+                    Type :
+                </label>
+                <label>
+                    @Model.type
+                </label>
+            </li>
+            <div class="clear"> </div>
+            <li>
+                <label>
+                    ID :
+                </label>
+                <label>
+                    @Model.id
+                </label>
+            </li>
+            <div class="clear"> </div>
+            <li>
+                <label>
+                    Name :
+                </label>
+                <label>
+                    @Model.name
+                </label>
+            </li>
+            <div class="clear"> </div>
+            <li>
+                <label>
+                    Email :
+                </label>
+                <label>
+                    @Model.email
+                </label>
+
+            </li>
+
+            <div class="clear"> </div>
+            <li>
+
+                <label>
+                    Contact :
+                </label>
+                <label>
+                    @Model.contact
+                </label>
+
+            </li>
+            <div class="clear"> </div>
+
+            <div class="clear"> </div>
+            <li>
+                <label>
+                    Address :
+                </label>
+                <label>
+                    @Model.address
+                </label>
+
+            </li>
+            <div class="clear"> </div>
+            <li>
+
+                <label>
+                    Working Hour :
+                </label>
+                <label>
+                    @Model.workingHour
+                </label>
+
+            </li>
+
+
+
+            <div class="clear"></div>
+
+            <div class="submit viewsubmit">
+
+                <a href="/DrugStoreAndDiagnosticCenterViewProfile/EditProfile">
+                    <input type="submit" value="Edit">
+                </a>
+                <div class="clear"> </div>
+            </div>
+            </div>
+
+
+
+
+
+
+
+        </div>
+</div>
+
+<div class="clear"> </div>

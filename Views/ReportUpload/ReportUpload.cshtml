@@ -1,0 +1,47 @@
+﻿@model MedAide.Models.ReportUpload
+@{
+    ViewBag.Title = "ReportUpload";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="pagebackground">
+    <div class="message warning">
+        <div class="inset">
+            <div class="login-head">
+                <h1>Report Upload</h1>
+                <div class="alert-close"> </div>
+            </div>
+            
+            @using (Html.BeginForm("ReportUpload", "ReportUpload", FormMethod.Post, new {enctype="multipart/form-data", @class = "medicinelistuploadform" })){
+
+                <li>
+                    <div>
+                        <label>Patient ID:</label>
+                    </div>
+                    
+                    @Html.TextBoxFor(model => model.patient_id, new {@required = "true"})
+                </li>
+                <div class="clear"> </div>
+                <li class="fileuploadsection">
+                    <label for="myfile">Select a file:</label>
+                    @Html.TextBoxFor(model => model.data, new { type = "File", @required = "true"})
+                  
+                </li>
+
+                <div class="clear"> </div>
+                <li>@ViewBag.a</li>
+
+                <div class="clear"> </div>
+                <div class="submit">
+                    <input type="submit" onclick="myFunction()" value="Submit">
+                    <div class="clear"> </div>
+                </div>
+
+            }
+
+            
+        </div>
+    </div>
+</div>
+
+<div class="clear"> </div>

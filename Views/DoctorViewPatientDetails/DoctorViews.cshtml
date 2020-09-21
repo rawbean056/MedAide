@@ -1,0 +1,302 @@
+﻿﻿@model MedAide.Models.DoctorViewPatientDetails
+@{
+    ViewBag.Title = "DoctorViews";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="pagebackground">
+
+
+    <section class="timeline-main">
+
+        <div class="wrapper">
+            <div class="timeline-content-6">
+                <div>
+                    <h1>Patient Details</h1>
+                    <ul class="patientDetails">
+                        <li>
+                            <label>Name : </label>
+                            <label>@Html.DisplayFor(model => model.pa.name) </label>
+                        </li>
+                        <li>
+                            <label>Blood Group : </label>
+                            <label> @Html.DisplayFor(model => model.pa.blood_group)  </label>
+                        </li>
+                        <li>
+                            <label> Gender : </label>
+                            <label> @Html.DisplayFor(model => model.pa.gender)</label>
+                        </li>
+                        <li>
+                            <label> Date of Birth :</label>
+                            <label> @Html.DisplayFor(model => model.date)</label>
+                        </li>
+                    </ul>
+                </div>
+
+              
+
+                @{
+                    if (@Model.typeJournalData)
+                    {
+
+                        int a = 2;
+                        if (!Model.resultJournal.Any())
+                        {
+                            <h2>No Journal Found!</h2>
+                        }
+                        else
+                        {
+                            <h2>Journal Details</h2>
+                            foreach (var Item in Model.resultJournal)
+                            {
+                                if (a % 2 == 0)
+                                {
+                                    a++;
+                                    <ul class="timeline">
+
+                                        <li>
+                                            <hr />
+                                            <div class="direction-r">
+                                                <div class="flag-wrapper">
+                                                    @if (string.Equals(Item.symptom1, "true"))
+                                                    {
+                                                        <span class="flag">Fever</span>
+                                                    }
+                                                    @if (string.Equals(Item.symptom2, "true"))
+                                                    {
+                                                        <span class="flag">Nausea</span>
+                                                    }
+                                                    @if (string.Equals(Item.symptom3, "true"))
+                                                    {
+                                                        <span class="flag">Cough</span>
+                                                    }
+                                                    @if (string.Equals(Item.symptom4, "true"))
+                                                    {
+                                                        <span class="flag">Rash</span>
+                                                    }
+                                                    <span class="time-wrapper"><span class="time">@Html.DisplayFor(modelItem => Item.date_time)</span></span>
+                                                </div>
+                                                <div class="desc">
+                                                    @Html.DisplayFor(modelItem => Item.note)
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                }
+                                else
+                                {
+                                    a++;
+
+                                    <!-- Item 2 -->
+                                    <ul class="timeline">
+                                        <li>
+                                            <hr />
+                                            <div class="direction-l">
+                                                <div class="flag-wrapper">
+                                                    @if (string.Equals(Item.symptom1, "true"))
+                                                    {
+                                                        <span class="flag">Fever</span>
+                                                    }
+                                                    @if (string.Equals(Item.symptom2, "true"))
+                                                    {
+                                                        <span class="flag">Nausea</span>
+                                                    }
+                                                    @if (string.Equals(Item.symptom3, "true"))
+                                                    {
+                                                        <span class="flag">Cough</span>
+                                                    }
+                                                    @if (string.Equals(Item.symptom4, "true"))
+                                                    {
+                                                        <span class="flag">Rash</span>
+                                                    }
+                                                    <span class="time-wrapper"><span class="time">@Html.DisplayFor(modelItem => Item.date_time)</span></span>
+                                                </div>
+                                                <div class="desc">
+                                                    @Html.DisplayFor(modelItem => Item.note)
+                                                </div>
+                                                <div>
+                                                    @*<a href="/ViewJournal/Download" class="reportdownload" download>Download Symptom_2</a>*@
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                }
+                            }
+                        }
+                    }
+
+
+                    if (@Model.typePrescriptionData)
+                    {
+
+                        int a = 2;
+                        if (!Model.resultPrescription.Any())
+                        {
+                            <h2>No Prescription Found!</h2>
+                        }
+                        else
+                        {
+                            <h2>Prescription Details</h2>
+                            foreach (var Item in Model.resultPrescription)
+                            {
+                                if (a % 2 == 0)
+                                {
+                                    a++;
+                                    <div class="timeline">
+                                        <li>
+                                            <hr />
+                                            <div class="direction-r">
+                                                <div class="flag-wrapper">
+
+                                                    <span class="flag">Prescription from</span>
+
+                                                    <span class="time-wrapper"><span class="time">@Html.DisplayFor(modelItem => Item.pre.date_time)</span></span>
+                                                </div>
+                                                <div class="desc">
+                                                    Doctor  @Html.DisplayFor(modelItem => Item.doc.name)
+                                                    <div>
+                                                        <button class="downloadButton">
+                                                            <div>
+                                                                <a href="/DoctorViewPatientDetails/DownloadPrescription?id=@Item.pre.id" class="reportdownload" download>Download</a>
+                                                            </div>
+                                                        </button>
+                                                    </div>
+                                                   
+                                                </div>
+                                                
+                                                
+                                            </div>
+                                        </li>
+                                    </div>
+                                }
+                                else
+                                {
+                                    a++;
+
+                                    <!-- Item 2 -->
+                                    <div class="timeline">
+                                        <li>
+                                            <hr />
+                                            <div class="direction-l">
+                                                <div class="flag-wrapper">
+
+                                                    <span class="flag">Prescription from</span>
+
+                                                    <span class="time-wrapper"><span class="time">@Html.DisplayFor(modelItem => Item.pre.date_time)</span></span>
+                                                </div>
+                                                <div class="desc">
+                                                    Doctor  @Html.DisplayFor(modelItem => Item.doc.name)
+                                                    <div>
+                                                        <button class="downloadButton">
+                                                            <div>
+                                                                <a href="/DoctorViewPatientDetails/DownloadPrescription?id=@Item.pre.id" class="reportdownload" download>Download</a>
+                                                            </div>
+                                                        </button>
+                                                    </div>
+                                                    
+                                                </div>
+                                                
+                                            </div>
+                                        </li>
+                                    </div>
+                                }
+                            }
+                        }
+                    }
+
+
+                    if (@Model.typeReportData)
+                    {
+
+                        int a = 2;
+                        if (!Model.resultReport.Any())
+                        {
+                            <h2>No Report Found!</h2>
+                        }
+                        else
+                        {
+                            <h2>Report Details</h2>
+                            foreach (var Item in Model.resultReport)
+                            {
+                                if (a % 2 == 0)
+                                {
+                                    a++;
+                                    <div class="timeline">
+
+                                        <li>
+                                            <hr />
+                                            <div class="direction-r">
+                                                <div class="flag-wrapper">
+
+                                                    <span class="flag">Report</span>
+
+                                                    <span class="time-wrapper"><span class="time">@Html.DisplayFor(modelItem => Item.rep.date_time)</span></span>
+                                                </div>
+                                                <div class="desc">
+                                                    from @Html.DisplayFor(modelItem => Item.center.name)
+                                                </div>
+                                                <div class="desc">
+                                                    Report name @Html.DisplayFor(modelItem => Item.rep.dataName)
+                                                    <div>
+                                                        <button class="downloadButton">
+                                                            <div>
+                                                                <a href="/DoctorViewPatientDetails/DownloadReport?id=@Item.rep.id" class="reportdownload" download>Download</a>
+                                                            </div>
+                                                        </button>
+                                                    </div>
+                                                   
+                                                </div>
+                                               
+                                            </div>
+                                        </li>
+                                    </div>
+
+                                }
+                                else
+                                {
+                                    a++;
+
+                                    <!-- Item 2 -->
+                                    <div class="timeline">
+                                        <li>
+                                            <hr />
+                                            <div class="direction-l">
+                                                <div class="flag-wrapper">
+
+                                                    <span class="flag">Report</span>
+
+                                                    <span class="time-wrapper"><span class="time">@Html.DisplayFor(modelItem => Item.rep.date_time)</span></span>
+                                                </div>
+                                                <div class="desc">
+                                                    from @Html.DisplayFor(modelItem => Item.center.name)
+                                                </div>
+                                                <div class="desc">
+                                                    Report name @Html.DisplayFor(modelItem => Item.rep.dataName)
+                                                    <div>
+                                                        <button class="downloadButton">
+                                                            <div>
+                                                                <a href="/DoctorViewPatientDetails/DownloadReport?id=@Item.rep.id" class="reportdownload" download>Download</a>
+                                                            </div>
+                                                        </button>
+                                                    </div>
+                                                    
+                                                </div>
+                                                
+                                            </div>
+                                        </li>
+                                    </div>
+                                }
+                            }
+                        }
+                    }
+                }
+
+            </div>
+
+        </div>
+
+
+    </section>
+</div>
+

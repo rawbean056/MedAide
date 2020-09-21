@@ -1,0 +1,252 @@
+﻿
+@model MedAide.Models.ViewJournal
+@{
+    ViewBag.Title = "ViewJournal";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="filterbackgroud">
+    <div class="filter">
+        <div>
+            <p class="addData">
+                Add new Journal
+                <a href="/AddNewJournal/AddJournal">
+                    <img class="addbuttonimage" src="~/assets/img/addbutton.png" alt="A add button image" />
+                </a>
+
+            </p>
+
+        </div>
+        <hr />
+
+        <h3> Filter </h3>
+        <p>
+            @using (Html.BeginForm("ViewJournal", "ViewJournal", FormMethod.Post))
+            {
+                <label for="from">from:</label>
+                @Html.TextBoxFor(m => m.starTime, new { type = "datetime-local", @required = "true" })
+                <label for="to">to:</label>
+                @Html.TextBoxFor(m => m.endTime, new { type = "datetime-local", @required = "true" })
+                <input type="submit" value="Search">
+            }
+        </p>
+        <p>
+            <a href="/ViewJournal/ViewJournal">
+
+                <input class="filteractive" type="submit" value="Journal">
+
+            </a>
+            <a href="/ViewReport/ViewReport">
+
+                <input type="submit" value="Report">
+
+            </a>
+            <a href="/ViewPrescription/ViewPrescription">
+                <input type="submit" value="Prescription">
+            </a>
+            <a href="/ViewMedList/ViewMedList">
+
+                <input type="submit" value="MedList">
+
+            </a>
+        </p>
+
+    </div>
+    <hr />
+
+</section>
+
+    
+
+
+
+
+
+
+<section class="timeline-main">
+
+    <div class="wrapper">
+        <div class="timeline-content-6">
+            <h1>Patient Journal Details</h1>
+            <ul class="timeline">
+                <!-- Item 1 -->
+
+                @{
+                    int a = 2;
+                    if (Model.result == null)
+                    {
+                    }
+                    else
+                    {
+                        foreach (var Item in Model.result)
+                        {
+                            if (a % 2 == 0)
+                            {
+                                a++;
+
+                                <li>
+                                    <hr />
+                                    <div class="direction-r">
+
+                                        <div class="flag-wrapper">
+                                            @if (string.Equals(Item.symptom1, "true"))
+                                            {
+                                                <span class="flag">Fever</span>
+                                            }
+                                            @if (string.Equals(Item.symptom2, "true"))
+                                            {
+                                                <span class="flag">Nausea</span>
+                                            }
+                                            @if (string.Equals(Item.symptom3, "true"))
+                                            {
+                                                <span class="flag">Cough</span>
+                                            }
+                                            @if (string.Equals(Item.symptom4, "true"))
+                                            {
+                                                <span class="flag">Rash</span>
+                                            }
+                                            <span class="time-wrapper"><span class="time">@Html.DisplayFor(modelItem => Item.date_time)</span></span>
+                                        </div>
+                                        <div class="desc">
+                                            @Html.DisplayFor(modelItem => Item.note)
+                                        </div>
+                                    </div>
+                                </li>
+
+                            }
+                            else
+                            {
+                                a++;
+
+                                <!-- Item 2 -->
+                                <li>
+                                    <hr />
+                                    <div class="direction-l">
+                                       
+                                        <div class="flag-wrapper">
+                                            @if (string.Equals(Item.symptom1, "true"))
+                                            {
+                                                <span class="flag">Fever</span>
+                                            }
+                                            @if (string.Equals(Item.symptom2, "true"))
+                                            {
+                                                <span class="flag">Nausea</span>
+                                            }
+                                            @if (string.Equals(Item.symptom3, "true"))
+                                            {
+                                                <span class="flag">Cough</span>
+                                            }
+                                            @if (string.Equals(Item.symptom4, "true"))
+                                            {
+                                                <span class="flag">Rash</span>
+                                            }
+                                            <span class="time-wrapper"><span class="time">@Html.DisplayFor(modelItem => Item.date_time)</span></span>
+                                        </div>
+                                        <div class="desc">
+                                            @Html.DisplayFor(modelItem => Item.note)
+                                        </div>
+                                        <div>
+                                            @*<a href="/ViewJournal/Download" class="reportdownload" download>Download Symptom_2</a>*@
+                                        </div>
+                                    </div>
+                                </li>
+                            }
+                        }
+                    }
+                }
+                <!-- Item 3 -->
+                <!--<li>
+        <div class="direction-r">
+            <div class="flag-wrapper">
+                <span class="flag">Symptom_1</span>
+                <span class="time-wrapper"><span class="time">18/08/2020</span></span>
+            </div>
+            <div class="desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur,
+                unde.
+            </div>
+        </div>
+    </li>-->
+                <!-- Item 2 -->
+                <!--<li>
+        <div class="direction-l">
+            <div class="flag-wrapper">
+                <span class="flag">Symptom_3</span>
+                <span class="time-wrapper"><span class="time">15/08/2020</span></span>
+            </div>
+            <div class="desc">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate nemo,
+                accusantium libero eligendi officiis iusto.
+            </div>
+            <div>
+                <a href="test_Prescription.zip" class="prescriptiondownload" download>Download Symptom_3</a>
+            </div>
+        </div>
+    </li>-->
+                <!-- Item 1 -->
+                <!--<li>
+        <div class="direction-r">
+            <div class="flag-wrapper">
+                <span class="flag">Symptom_1</span>
+                <span class="time-wrapper"><span class="time">14/08/2020</span></span>
+            </div>
+            <div class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit!</div>
+        </div>
+    </li>-->
+                <!-- Item 2 -->
+                <!--<li>
+        <div class="direction-l">
+            <div class="flag-wrapper">
+                <span class="flag">Symptom_1</span>
+                <span class="time-wrapper"><span class="time">12/08/2020</span></span>
+            </div>
+            <div class="desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam ducimus
+                pariatur, molestiae autem suscipit totam error reprehenderit dolores nostrum reiciendis
+                quas voluptas et repellat velit, qui eos ut minus consequuntur, quam facere? Culpa modi,
+                facere laborum distinctio perspiciatis nesciunt sunt.
+            </div>
+        </div>
+    </li>-->
+                <!-- Item 3 -->
+                <!--<li>
+        <div class="direction-r">
+            <div class="flag-wrapper">
+                <span class="flag">Symptom_3</span>
+                <span class="time-wrapper"><span class="time">11/08/2020</span></span>
+            </div>
+            <div class="desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo reiciendis
+                beatae quam odit fuga voluptates consequuntur quaerat iure, aperiam eveniet est porro
+                veritatis cum corrupti consequatur dolore provident quas culpa similique! Dolorum ipsam
+                aperiam obcaecati.
+            </div>
+            <div>
+                <a href="test_Prescription.zip" class="prescriptiondownload" download>Download Symptom_3</a>
+            </div>
+        </div>
+    </li>-->
+                <!-- Item 2 -->
+                @*<li>
+            <div class="direction-l">
+                <div class="flag-wrapper">
+                    <span class="flag">Symptom_2</span>
+                    <span class="time-wrapper"><span class="time">05/08/2020</span></span>
+                </div>
+                <div class="desc">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis dicta eum
+                    officia enim rem quibusdam, culpa, rerum eaque odio reiciendis ipsa quas, odit quisquam
+                    ducimus?
+                </div>
+                <div>
+                    <a href="test_Report.zip" class="reportdownload" download>Download Symptom_2</a>
+                </div>
+            </div>
+        </li>*@
+            </ul>
+
+        </div>
+
+    </div>
+</section>
+

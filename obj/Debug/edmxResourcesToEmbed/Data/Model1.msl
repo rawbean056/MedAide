@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MedaideModelStoreContainer" CdmEntityContainer="MedaideEntities">
+    <EntitySetMapping Name="DiagnosticCenters">
+      <EntityTypeMapping TypeName="MedaideModel.DiagnosticCenter">
+        <MappingFragment StoreEntitySet="DiagnosticCenter">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="contact" ColumnName="contact" />
+          <ScalarProperty Name="working_hour" ColumnName="working_hour" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Doctors">
+      <EntityTypeMapping TypeName="MedaideModel.Doctor">
+        <MappingFragment StoreEntitySet="Doctor">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="visiting_hour" ColumnName="visiting_hour" />
+          <ScalarProperty Name="academic" ColumnName="academic" />
+          <ScalarProperty Name="expertice" ColumnName="expertice" />
+          <ScalarProperty Name="chamber_address" ColumnName="chamber_address" />
+          <ScalarProperty Name="chamber_contact" ColumnName="chamber_contact" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DrugStores">
+      <EntityTypeMapping TypeName="MedaideModel.DrugStore">
+        <MappingFragment StoreEntitySet="DrugStore">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="addess" ColumnName="addess" />
+          <ScalarProperty Name="contact" ColumnName="contact" />
+          <ScalarProperty Name="working_hour" ColumnName="working_hour" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Journals">
+      <EntityTypeMapping TypeName="MedaideModel.Journal">
+        <MappingFragment StoreEntitySet="Journal">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="patient_id" ColumnName="patient_id" />
+          <ScalarProperty Name="date_time" ColumnName="date_time" />
+          <ScalarProperty Name="note" ColumnName="note" />
+          <ScalarProperty Name="symptom1" ColumnName="symptom1" />
+          <ScalarProperty Name="symptom2" ColumnName="symptom2" />
+          <ScalarProperty Name="symptom3" ColumnName="symptom3" />
+          <ScalarProperty Name="symptom4" ColumnName="symptom4" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MedLists">
+      <EntityTypeMapping TypeName="MedaideModel.MedList">
+        <MappingFragment StoreEntitySet="MedList">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="drugstore_id" ColumnName="drugstore_id" />
+          <ScalarProperty Name="patient_id" ColumnName="patient_id" />
+          <ScalarProperty Name="date_time" ColumnName="date_time" />
+          <ScalarProperty Name="data" ColumnName="data" />
+          <ScalarProperty Name="datatype" ColumnName="datatype" />
+          <ScalarProperty Name="dataname" ColumnName="dataname" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Patients">
+      <EntityTypeMapping TypeName="MedaideModel.Patient">
+        <MappingFragment StoreEntitySet="Patient">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="contact" ColumnName="contact" />
+          <ScalarProperty Name="emergency_contact" ColumnName="emergency_contact" />
+          <ScalarProperty Name="gender" ColumnName="gender" />
+          <ScalarProperty Name="blood_group" ColumnName="blood_group" />
+          <ScalarProperty Name="dob" ColumnName="dob" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Prescriptions">
+      <EntityTypeMapping TypeName="MedaideModel.Prescription">
+        <MappingFragment StoreEntitySet="Prescription">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="doc_id" ColumnName="doc_id" />
+          <ScalarProperty Name="patient_id" ColumnName="patient_id" />
+          <ScalarProperty Name="date_time" ColumnName="date_time" />
+          <ScalarProperty Name="data" ColumnName="data" />
+          <ScalarProperty Name="datatype" ColumnName="datatype" />
+          <ScalarProperty Name="dataname" ColumnName="dataname" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Reports">
+      <EntityTypeMapping TypeName="MedaideModel.Report">
+        <MappingFragment StoreEntitySet="Report">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="center_id" ColumnName="center_id" />
+          <ScalarProperty Name="patient_id" ColumnName="patient_id" />
+          <ScalarProperty Name="date_time" ColumnName="date_time" />
+          <ScalarProperty Name="data" ColumnName="data" />
+          <ScalarProperty Name="datatype" ColumnName="datatype" />
+          <ScalarProperty Name="dataName" ColumnName="dataName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

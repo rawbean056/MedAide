@@ -1,0 +1,136 @@
+﻿@model MedAide.Models.ViewReport
+
+@{
+    ViewBag.Title = "ViewReport";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="filterbackgroud">
+    <div class="filter">
+   
+        <h3> Filter </h3>
+
+
+        <p>
+            @using (Html.BeginForm("ViewReport", "ViewReport", FormMethod.Post))
+            {
+                <label for="from">from:</label>
+                @Html.TextBoxFor(m => m.starTime, new { type = "datetime-local", @required = "true" })
+                <label for="to">to:</label>
+                @Html.TextBoxFor(m => m.endTime, new { type = "datetime-local", @required = "true" })
+                <input type="submit" value="Search">
+            }
+        </p>
+        <div class="filter">
+            <p>
+                <a href="/ViewJournal/ViewJournal">
+
+                    <input type="submit" value="Journal">
+
+                </a>
+                <a href="/ViewReport/ViewReport">
+
+                    <input class="filteractive" type="submit" value="Report">
+
+                </a>
+                <a href="/ViewPrescription/ViewPrescription">
+                    <input type="submit" value="Prescription">
+                </a>
+                <a href="/ViewMedList/ViewMedList">
+
+                    <input type="submit" value="MedList">
+
+                </a>
+            </p>
+        </div>
+
+</section>
+<section class="timeline-main">
+
+    <div class="wrapper">
+        <div class="timeline-content-6">
+            <h1>Patient Report Details</h1>
+            <ul class="timeline">
+                @{int a = 2;
+                    if (Model.result == null)
+                    {
+                    }
+                    else
+                    {
+                        foreach (var Item in Model.result)
+                        {
+                            if (a % 2 == 0)
+                            {
+                                a++;
+
+                                <li>
+                                    <hr />
+                                                    <div class="direction-r">
+                                                        <div class="flag-wrapper">
+
+                                                            <span class="flag">Report</span>
+
+                                                            <span class="time-wrapper"><span class="time">@Html.DisplayFor(modelItem => Item.rep.date_time)</span></span>
+                                                        </div>
+                                                        <div class="desc">
+                                                           from @Html.DisplayFor(modelItem => Item.center.name)
+                                                        </div>
+                                                        <div class="desc">
+                                                            Report name @Html.DisplayFor(modelItem => Item.rep.dataName)
+                                                            <div>
+                                                                <button class="downloadButton">
+                                                                    <div>
+                                                                        <a href="/ViewReport/Download?id=@Item.rep.id" class="reportdownload" download>Download</a>
+                                                                    </div>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                    </div>
+                                </li>
+
+                            }
+                            else
+                            {
+                                a++;
+
+                                <!-- Item 2 -->
+                                <li>
+                                    <hr />
+                                    <div class="direction-l">
+                                        <div class="flag-wrapper">
+
+                                            <span class="flag">Report</span>
+
+                                            <span class="time-wrapper"><span class="time">@Html.DisplayFor(modelItem => Item.rep.date_time)</span></span>
+                                        </div>
+                                        <div class="desc">
+                                            from @Html.DisplayFor(modelItem => Item.center.name)
+                                        </div>
+                                        <div class="desc">
+                                            Report name @Html.DisplayFor(modelItem => Item.rep.dataName)
+                                            <div>
+                                                <button class="downloadButton">
+                                                    <div>
+                                                        <a href="/ViewReport/Download?id=@Item.rep.id" class="reportdownload" download>Download</a>
+                                                    </div>
+                                                </button>
+                                            </div>
+                                        </div>
+                                     
+                                    </div>
+                                </li>
+                            }
+                        }
+                    }
+
+                }
+            </ul>
+
+        </div>
+
+    </div>
+</section>
+
+
+

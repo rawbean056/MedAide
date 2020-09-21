@@ -1,0 +1,173 @@
+﻿@using MedAide.Data
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>@ViewBag.Title-Medaide</title>
+    <meta content="" name="descriptison">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="~/assets/img/favicon.png" rel="icon">
+    <link href="~/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Lato:400,300,700,900" rel="stylesheet" type="text/css" />
+
+    <!-- Vendor CSS Files -->
+    <link href="~/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/assets/vendor/icofont/icofont.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/assets/vendor/venobox/venobox.css" rel="stylesheet" type="text/css" />
+    <link href="~/assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- Template Main CSS File -->
+    <link href="~/assets/css/style.css" rel="stylesheet" type="text/css" />
+
+
+</head>
+
+<body>
+    <header id="header" class="fixed-top">
+        <div class="container">
+
+            <div class="logo float-left">
+                <h1 class="text-light"><a href="Index.cshtml"><span>
+    @{
+        MedaideEntities obj2 = new MedaideEntities();
+        string email1 = (string) Session["Email"];
+        string usertype1 = (string) Session["UserType"];
+        if (email1 != null)
+        {
+            if (string.Equals(usertype1, "Patient"))
+            {
+
+                @Html.ActionLink("MedAide", "ViewJournal", "ViewJournal")
+            }
+
+            if (string.Equals(usertype1, "Doctor"))
+            {
+                @Html.ActionLink("MedAide", "DoctorSearching", "DoctorSearchingPatient")
+            }
+            if (string.Equals(usertype1, "DiagnosticCenter"))
+            {
+                @Html.ActionLink("MedAide", "ReportUpload", "ReportUpload")
+            }
+            if (string.Equals(usertype1, "DrugStore"))
+            {
+                @Html.ActionLink("MedAide", "MedicineListUpload", "MedicineListUpload")
+            }
+        }else{
+
+        @Html.ActionLink("MedAide", "Index", "Home")}}
+</span></a></h1>
+
+            </div>
+
+            <nav class="nav-menu float-right d-none d-lg-block">
+                <ul class="navlinks">
+                    <li><a href="/Home/About">About Us</a></li>
+                    <li><a href="/Home/Services">Services</a></li>
+                    <li><a href="/Home/Contact">Contact Us</a></li>
+                    @{ MedaideEntities obj1 = new MedaideEntities();
+                        string email = (string)Session["Email"];
+                        string usertype = (string)Session["UserType"];
+                        if (email != null)
+                        {
+                            if (string.Equals(usertype, "Patient"))
+                            {
+                                Patient pa = obj1.Patients.Where(m => m.email == email).FirstOrDefault();
+                                
+                                <li>
+                                    <button class="btn btn-default dropdown-toggle userButton" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                        <label>@pa.name</label>
+                                        <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu " aria-labelledby="dropdownMenu1">
+                                        <li><a href="/ViewProfile/ViewProfile">View Profile</a></li>
+                                        <li><a href="/Home/Index">Log Out</a></li>
+
+                                    </ul>
+                                </li>
+
+                            }
+                            if (string.Equals(usertype, "Doctor"))
+                            {
+                                Doctor doc = obj1.Doctors.Where(m => m.email == email).FirstOrDefault();
+                                <li>
+                                    <button class="btn btn-default dropdown-toggle userButton" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                        <label>@doc.name</label>
+                                        <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu " aria-labelledby="dropdownMenu1">
+                                        <li><a href="/viewDoctorProfile/viewDoctorProfile">View Profile</a></li>
+                                        <li><a href="/Home/Index">Log Out</a></li>
+
+                                    </ul>
+                                </li>
+
+                            }
+                            if (string.Equals(usertype, "DiagnosticCenter"))
+                            {
+                                DiagnosticCenter dia = obj1.DiagnosticCenters.Where(m => m.email == email).FirstOrDefault();
+                                <li>
+                                    <button class="btn btn-default dropdown-toggle userButton" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                        <label>@dia.name</label>
+                                        <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu " aria-labelledby="dropdownMenu1">
+                                        <li><a href="/DrugStoreAndDiagnosticCenterViewProfile/ViewProfile">View Profile</a></li>
+                                        <li><a href="/Home/Index">Log Out</a></li>
+
+                                    </ul>
+                                </li>
+
+                            }
+                            if (string.Equals(usertype, "DrugStore"))
+                            {
+                                DrugStore ds = obj1.DrugStores.Where(m => m.email == email).FirstOrDefault();
+                                <li>
+                                    <button class="btn btn-default dropdown-toggle userButton" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                        <label>@ds.name</label>
+                                        <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu " aria-labelledby="dropdownMenu1">
+                                        <li><a href="/DrugStoreAndDiagnosticCenterViewProfile/ViewProfile">View Profile</a></li>
+                                        <li><a href="/Home/Index">Log Out</a></li>
+
+                                    </ul>
+                                </li>
+
+                            }
+                        }
+
+                    }
+                </ul>
+            </nav><!-- .nav-menu -->
+
+        </div>
+    </header><!-- End #header -->
+    @RenderBody()
+
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+    <script src="~/assets/vendor/jquery/jquery.min.js"></script>
+    <script src="~/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="~/assets/vendor/php-email-form/validate.js"></script>
+    <script src="~/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="~/assets/vendor/venobox/venobox.min.js"></script>
+    <script src="~/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="~/assets/js/main.js"></script>
+
+</body>
+
+</html>

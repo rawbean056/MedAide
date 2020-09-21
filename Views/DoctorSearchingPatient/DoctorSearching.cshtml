@@ -1,0 +1,70 @@
+﻿@model MedAide.Models.DoctorSearchingPatient
+@{
+    ViewBag.Title = "DoctorSearching";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="pagebackground">
+    <div class="message warning">
+        <div>
+            <p class="addData"> Add new prescription 
+                <a href="/PrescriptionUpload/PrescriptionUpload">
+                    <img class="addbuttonimage" src="~/assets/img/addbutton.png" alt="A add button image" />
+                </a>
+                
+            </p>
+            
+        </div>
+        <div class="inset">
+            <div class="login-head">
+                <h1>Search a specific patient</h1>
+                <div class="alert-close"> </div>
+            </div>
+            
+            @using (Html.BeginForm("DoctorSearching", "DoctorSearchingPatient", FormMethod.Post,new {@class = "medicinelistuploadform"}))
+            {
+
+                <li>
+                    <label>Patient ID:</label>
+                    @Html.TextBoxFor(model => model.patient_id, new {@required = "true"})
+                </li>
+                <div class="clear"> </div>
+                <li class="fileuploadsection">
+                    <label for="from">from:</label>
+                    @Html.TextBoxFor(m => m.startTime, new { type = "datetime-local", @required = "true" }) <br>
+                    <label for="to">to:</label>
+                    @Html.TextBoxFor(m => m.endTime, new { type = "datetime-local", @required = "true" })
+
+                </li>
+
+                <li>
+                   
+                    @Html.CheckBoxFor(m => m.typeJournalData, new { @value = "true" })
+                    <label for="Journal"> Journal</label>
+                    
+                    @Html.CheckBoxFor(m => m.typeReportData, new { @value = "true" })
+                    <label for="Report"> Report</label>
+                    @Html.CheckBoxFor(m => m.typePrescriptionData, new { @value = "true" })
+                    
+                    <label for="Prescription"> Prescription</label>
+                </li>
+
+                <li>
+                    @ViewBag.a
+                    </li>
+
+               
+
+                <div class="clear"> </div>
+                <div class="submit doctorSearch">
+                    <input type="submit" onclick="myFunction()" value="Search">
+                    <div class="clear"> </div>
+                </div>
+            }
+            
+        </div>
+    </div>
+</div>
+
+<div class="clear"> </div>
+

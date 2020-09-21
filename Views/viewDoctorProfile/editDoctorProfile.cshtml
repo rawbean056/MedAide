@@ -1,0 +1,153 @@
+﻿@model MedAide.Models.viewDoctorProfile
+@{
+    ViewBag.Title = "editDoctorProfile";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="pagebackground">
+    <div class="message warning">
+        <div class="inset">
+            <div class="login-head">
+                <h1>Doctor Profile</h1>
+                <div class="alert-close"> </div>
+            </div>
+
+
+
+            @using (Html.BeginForm("editDoctorProfile", "viewDoctorProfile", FormMethod.Post, new { @class = "viewprofileform" }))
+
+            {
+
+                <li>
+                    <div>
+                        <label>
+                            Name :
+                        </label>
+
+                    </div>
+                   
+                        @Html.TextBoxFor(model => model.name)
+                    
+
+                </li>
+                <div class="clear"> </div>
+
+                <li>
+                    <div>
+                        <label>
+                            Current Password :
+                        </label>
+                    </div>
+                  
+                   
+                        @Html.PasswordFor(model => model.current_password)
+                   
+
+                </li>
+                <li>
+
+                    <div>
+                        <label>
+                            New Password :
+                        </label>
+                    </div>
+                   
+                        @Html.PasswordFor(model => model.new_password)
+                    
+
+                </li>
+                <div class="clear"> </div>
+                <li>
+
+                    <div>
+                        <label>
+                            Academic :
+                        </label>
+                    </div>
+
+                   @Html.TextAreaFor(model=>model.academic)
+
+                </li>
+                <div class="clear"> </div>
+                <li>
+                    <div>
+                        <label>
+                            Expertice :
+                        </label>
+                    </div>
+                    @Html.TextBoxFor(model=>model.expertice)
+
+                </li>
+                <div class="clear"> </div>
+
+
+
+
+                <li>
+                    <div>
+                        <label>
+                            Chamber Contact :
+                        </label>
+                    </div>
+
+                    @Html.TextBoxFor(model=>model.chamber_contact)
+
+                </li>
+
+
+
+                <div class="clear"> </div>
+                <li>
+
+                    <div>
+                        <label>
+                            Chamber Address :
+                        </label>
+                    </div>
+                    @Html.TextBoxFor(model => model.chamber_address)
+
+                </li>
+
+                <div class="clear"> </div>
+                <li>
+
+                    <div>
+                        <label>
+                            Visiting Hour :
+                        </label>
+                    </div>
+                    @Html.TextBoxFor(model=>model.visiting_hour,new {@placeholder="      12:00 pm-3:30pm"})
+
+                </li>
+
+
+                <div class="clear"></div>
+                <li>
+
+                    <label>
+                       @ViewBag.a
+                    </label>
+                 
+
+                </li>
+
+
+                <div class="clear"></div>
+
+                <div class="submit">
+                    <input type="submit" value="Done">
+                    <div class="clear"> </div>
+                </div>
+            }
+
+
+
+
+
+
+
+        </div>
+    </div>
+
+    <div class="clear"> </div>
+

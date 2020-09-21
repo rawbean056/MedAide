@@ -1,0 +1,127 @@
+﻿@model MedAide.Models.viewDoctorProfile
+@{
+    ViewBag.Title = "viewDoctorProfile";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="pagebackground">
+    <div class="message warning">
+        <div class="inset">
+            <div class="login-head">
+                <h1>User  Profile</h1>
+                <div class="alert-close"> </div>
+            </div>
+
+
+
+            <div class="viewprofileform arnab">
+
+
+
+                <li>
+                    <label>
+                        ID :
+                    </label>
+                    <label>
+                        @Model.id
+                    </label>
+                </li>
+                <div class="clear"> </div>
+                <li>
+                    <label>
+                        Name :
+                    </label>
+                    <label>
+                        @Html.Raw(@Model.name)
+                    </label>
+                </li>
+                <div class="clear"> </div>
+                <li>
+                    <label>
+                        Email :
+                    </label>
+                    <label>
+                        @Html.Raw(@Model.email)
+                    </label>
+
+                </li>
+
+                <div class="clear"> </div>
+                <li>
+
+                    <label>
+                        Academic :
+                    </label>
+                    <label>
+                    @Html.Raw(@Model.academic)
+                    </label>
+
+                </li>
+                <div class="clear"> </div>
+                <li>
+
+                    <label>
+                        Expertice :
+                    </label>
+
+                    <label>
+                        @Html.Raw(@Model.expertice)
+                    </label>
+
+                </li>
+                <div class="clear"> </div>
+                <li>
+                    <label>
+                        Chamber Address :
+                    </label>
+                    <label>
+                        @Html.Raw(@Model.chamber_address)
+                    </label>
+
+                </li>
+                <div class="clear"> </div>
+                <li>
+
+                    <label>
+                        Chamber Contact :
+                    </label>
+                    <label>
+                        @Html.Raw(@Model.chamber_contact)
+                    </label>
+
+                </li>
+
+                <div class="clear"> </div>
+                <li>
+
+                    <label>
+                        Visiting hour :
+                    </label>
+                    <label>
+                        @Html.Raw(@Model.visiting_hour)
+                    </label>
+
+                </li>
+
+
+
+                <div class="clear"></div>
+
+                <div class="submit">
+                   <a href="/viewDoctorProfile/editDoctorProfile"> <input type="submit" value="Edit"></a>
+
+                    <div class="clear"> </div>
+                </div>
+
+
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+
+    <div class="clear"> </div>

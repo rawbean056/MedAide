@@ -1,0 +1,123 @@
+﻿@model MedAide.Models.DrugStoreAndDiagnosticCenterViewProfile
+@{
+    ViewBag.Title = "EditProfile";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+div class="pagebackground">
+<div class="message warning">
+    <div class="inset">
+        <div class="login-head">
+            <h1>User  Profile</h1>
+            <div class="alert-close"> </div>
+        </div>
+
+
+
+        @using (Html.BeginForm("EditProfile", "DrugStoreAndDiagnosticCenterViewProfile", FormMethod.Post, new { @class = "viewprofileform" }))
+
+        {
+            
+            <li>
+                <div>
+                    <label>
+                        Name :
+                    </label>
+                </div>
+                
+              
+                @Html.TextBoxFor(model => model.name)
+                
+            </li>
+            <div class="clear"> </div>
+            <li>
+
+                <div>
+                    <label>
+                        Current Password :
+                    </label>
+
+                </div>
+                @Html.PasswordFor(model => model.current_password)
+                   
+
+            </li>
+            <li>
+                <div>
+
+                    <label>
+                        New Password :
+                    </label>
+                </div>
+                   
+                @Html.PasswordFor(model => model.new_password)
+                    
+
+            </li>
+            <div class="clear"> </div>
+            
+
+          
+            <li>
+
+                <div>
+                    <label>
+                        Contact :
+                    </label>
+                </div>
+                @Html.TextBoxFor(model => model.contact )
+
+            </li>
+            <div class="clear"> </div>
+
+            <div class="clear"> </div>
+            <li>
+                <div>
+                    <label>
+                        Address :
+                    </label>
+                </div>
+                @Html.TextBoxFor(model => model.address)
+
+            </li>
+            <div class="clear"> </div>
+            <li>
+
+                <div>
+                    <label>
+                        Working Hour :
+                    </label>
+                </div>
+                @Html.TextBoxFor(model => model.workingHour, new { @placeholder = "8:00am-12:00am" })
+
+            </li>
+            <li>
+
+                <label>
+                    @ViewBag.a
+                </label>
+                 
+
+            </li>
+
+
+
+            <div class="clear"></div>
+
+            <div class="submit">
+
+                <input type="submit" value="Edit">
+                <div class="clear"> </div>
+            </div>
+        }
+
+
+
+
+
+
+
+    </div>
+</div>
+
+<div class="clear"> </div>

@@ -1,0 +1,194 @@
+﻿@model MedAide.Models.ViewProfile
+
+@{
+    ViewBag.Title = "EditProfile";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="pagebackground">
+    <div class="message warning">
+        <div class="inset">
+            <div class="login-head">
+                <h1>User  Profile</h1>
+                <div class="alert-close"> </div>
+            </div>
+
+
+
+            @using (Html.BeginForm("EditProfile", "ViewProfile", FormMethod.Post, new { @class = "viewprofileform" }))
+
+            {
+
+                <li>
+                    <div>
+                        <label>
+                            Name :
+                        </label>
+                    </div>
+                   
+                    @Html.TextBoxFor(model => model.name)
+
+                </li>
+                <div class="clear"> </div>
+                <li>
+                    <div>
+                        <label>
+                            Current Password :
+                        </label>
+                    </div>
+                   
+                   
+                    @Html.PasswordFor(model => model.current_password)
+                   
+
+                </li>
+                <li>
+                    <div>
+                        <label>
+                            New Password :
+                        </label>
+                    </div>
+                    
+                   
+                    @Html.PasswordFor(model => model.new_password)
+                    
+
+                </li>
+                <div class="clear"> </div>
+
+                <li>
+                    <div>
+
+                        <label>
+                            Contact :
+                        </label>
+                    </div>
+                    @Html.TextBoxFor(model => model.contact)
+
+                </li>
+                <div class="clear"> </div>
+                <li>
+                    <div>
+                        <label>
+                            Emergency Contact :
+                        </label>
+
+                    </div>
+                   
+                    @Html.TextBoxFor(model => model.emergency_contact)
+
+                </li>
+                <div class="clear"> </div>
+                <li>
+                    <div>
+                        <label>
+                            Address :
+                        </label>
+                    </div>
+                    @Html.TextBoxFor(model => model.Address)
+
+                </li>
+                <div class="clear"> </div>
+
+
+
+
+                <li class="radios">
+                    <div>
+                        <label>
+                            Gender :
+                        </label>
+
+                    </div>
+                    @Html.RadioButtonFor(model => model.gender, "Male")
+
+                    <label for="male">Male</label>
+
+                    @Html.RadioButtonFor(model => model.gender, "Female")
+                    <label for="female">Female</label>
+
+                    @Html.RadioButtonFor(model => model.gender, "Other")
+                    <label for="other">Other</label>
+
+
+                </li>
+
+
+
+                <div class="clear"> </div>
+                <li>
+                    <div>
+                        <label>
+                            Date of Birth :
+                        </label>
+                    </div>
+                   
+                    @Html.TextBoxFor(m => m.dob,new {@type = "date"})
+
+                </li>
+
+                <div class="clear"></div>
+                <li>
+                    <div>
+                        <label>
+                            Blood Group :
+                        </label>
+                    </div>
+
+                    @Html.RadioButtonFor(model => model.blood_group, "AB+")
+
+                    <label for="male">AB+</label>
+
+                    @Html.RadioButtonFor(model => model.blood_group, "AB-")
+                    <label for="female">AB-</label>
+
+                    @Html.RadioButtonFor(model => model.blood_group, "A+")
+                    <label for="other">A+</label>
+                    @Html.RadioButtonFor(model => model.blood_group, "A-")
+
+                    <label for="male">A-</label>
+
+                    @Html.RadioButtonFor(model => model.blood_group, "B+")
+                    <label for="female">B+</label>
+
+                    @Html.RadioButtonFor(model => model.blood_group, "B-")
+                    <label for="other">B-</label>
+
+                    @Html.RadioButtonFor(model => model.blood_group, "O+")
+
+                    <label for="male">O+</label>
+
+                    @Html.RadioButtonFor(model => model.blood_group, "O-")
+                    <label for="female">O-</label>
+
+                </li>
+
+                <div class="clear"></div>
+                <li>
+
+                    <label>
+                        @ViewBag.a
+                    </label>
+                 
+
+                </li>
+
+
+                <div class="clear"></div>
+
+                <div class="submit">
+                    <input type="submit" value="Done">
+                    <div class="clear"> </div>
+                </div>
+            }
+
+
+
+
+
+
+
+        </div>
+    </div>
+
+    <div class="clear"> </div>

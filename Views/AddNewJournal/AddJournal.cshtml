@@ -1,0 +1,60 @@
+﻿@model MedAide.Models.AddNewJournal
+@{
+    ViewBag.Title = "AddJournal";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="pagebackground">
+    <div class="message warning">
+        <div class="inset journalpage">
+            <div class="login-head">
+                <h1>Create a new Journal</h1>
+                <div class="alert-close"> </div>
+            </div>
+           
+            
+            @using (Html.BeginForm("AddJournal1", "AddNewJournal", FormMethod.Post, new {  @class = "addnewjournal" }))
+            {
+
+
+                <li class="userwritings">
+                       
+                    @Html.TextAreaFor(model=>model.journal,new { @placeholder = " Write here" })
+                </li>
+
+                <li>
+
+                    
+                    @Html.CheckBoxFor(m => m.sym1, new { @value = "true" })
+                    <label for="Symptom_1"> Fever</label>
+
+                    
+                    @Html.CheckBoxFor(m => m.sym2, new { @value = "true" })
+                    <label for="Symptom_2"> Nausea</label> <br />
+
+                    
+                    @Html.CheckBoxFor(m => m.sym3, new { @value = "true" })
+                    <label for="Symptom_3"> Cough</label>
+
+                    
+                    @Html.CheckBoxFor(m => m.sym4, new { @value = "true" })
+                    <label for="Symptom_4"> Rash</label>
+                </li>
+                <div class="clear"> </div>
+                <li>@ViewBag.a</li>
+
+
+                <div class="clear"> </div>
+                <div class="submit doctorSearch">
+                   <input type="submit"  value="ADD">
+                    <div class="clear"> </div>
+                </div>}
+
+                
+            
+        </div>
+    </div>
+</div>
+
+<div class="clear"> </div>
+

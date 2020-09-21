@@ -1,0 +1,805 @@
+C:\Users\robin\Desktop\MedAide\MedAide\bin\MedAide.dll.config
+C:\Users\robin\Desktop\MedAide\MedAide\bin\MedAide.dll
+C:\Users\robin\Desktop\MedAide\MedAide\bin\MedAide.pdb
+C:\Users\robin\Desktop\MedAide\MedAide\bin\roslyn\csc.exe
+C:\Users\robin\Desktop\MedAide\MedAide\bin\roslyn\csc.exe.config
+C:\Users\robin\Desktop\MedAide\MedAide\bin\roslyn\csc.rsp
+C:\Users\robin\Desktop\MedAide\MedAide\bin\roslyn\csi.exe
+C:\Users\robin\Desktop\MedAide\MedAide\bin\roslyn\csi.exe.config
+C:\Users\robin\Desktop\MedAide\MedAide\bin\roslyn\csi.rsp
+C:\Users\robin\Desktop\MedAide\MedAide\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\robin\Desktop\MedAide\MedAide\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\robin\Desktop\MedAide\MedAide\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\robin\Desktop\MedAide\MedAide\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\robin\Desktop\MedAide\MedAide\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\robin\Desktop\MedAide\MedAide\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\robin\Desktop\MedAide\MedAide\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\robin\Desktop\MedAide\MedAide\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\robin\Desktop\MedAide\MedAide\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\robin\Desktop\MedAide\MedAide\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\robin\Desktop\MedAide\MedAide\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\robin\Desktop\MedAide\MedAide\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\robin\Desktop\MedAide\MedAide\bin\roslyn\System.AppContext.dll
+C:\Users\robin\Desktop\MedAide\MedAide\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\robin\Desktop\MedAide\MedAide\bin\roslyn\System.Console.dll
+C:\Users\robin\Desktop\MedAide\MedAide\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\robin\Desktop\MedAide\MedAide\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\robin\Desktop\MedAide\MedAide\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\robin\Desktop\MedAide\MedAide\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\robin\Desktop\MedAide\MedAide\bin\roslyn\System.IO.Compression.dll
+C:\Users\robin\Desktop\MedAide\MedAide\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\robin\Desktop\MedAide\MedAide\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\robin\Desktop\MedAide\MedAide\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\robin\Desktop\MedAide\MedAide\bin\roslyn\System.Net.Http.dll
+C:\Users\robin\Desktop\MedAide\MedAide\bin\roslyn\System.Net.Sockets.dll
+C:\Users\robin\Desktop\MedAide\MedAide\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\robin\Desktop\MedAide\MedAide\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\robin\Desktop\MedAide\MedAide\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\robin\Desktop\MedAide\MedAide\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\robin\Desktop\MedAide\MedAide\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\robin\Desktop\MedAide\MedAide\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\robin\Desktop\MedAide\MedAide\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\robin\Desktop\MedAide\MedAide\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\robin\Desktop\MedAide\MedAide\bin\roslyn\System.ValueTuple.dll
+C:\Users\robin\Desktop\MedAide\MedAide\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\robin\Desktop\MedAide\MedAide\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\robin\Desktop\MedAide\MedAide\bin\roslyn\System.Xml.XPath.dll
+C:\Users\robin\Desktop\MedAide\MedAide\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\robin\Desktop\MedAide\MedAide\bin\roslyn\vbc.exe
+C:\Users\robin\Desktop\MedAide\MedAide\bin\roslyn\vbc.exe.config
+C:\Users\robin\Desktop\MedAide\MedAide\bin\roslyn\vbc.rsp
+C:\Users\robin\Desktop\MedAide\MedAide\bin\roslyn\VBCSCompiler.exe
+C:\Users\robin\Desktop\MedAide\MedAide\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\robin\Desktop\MedAide\MedAide\bin\Antlr3.Runtime.dll
+C:\Users\robin\Desktop\MedAide\MedAide\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\robin\Desktop\MedAide\MedAide\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\robin\Desktop\MedAide\MedAide\bin\Newtonsoft.Json.dll
+C:\Users\robin\Desktop\MedAide\MedAide\bin\System.Web.Helpers.dll
+C:\Users\robin\Desktop\MedAide\MedAide\bin\System.Web.Mvc.dll
+C:\Users\robin\Desktop\MedAide\MedAide\bin\System.Web.Optimization.dll
+C:\Users\robin\Desktop\MedAide\MedAide\bin\System.Web.Razor.dll
+C:\Users\robin\Desktop\MedAide\MedAide\bin\System.Web.WebPages.Deployment.dll
+C:\Users\robin\Desktop\MedAide\MedAide\bin\System.Web.WebPages.dll
+C:\Users\robin\Desktop\MedAide\MedAide\bin\System.Web.WebPages.Razor.dll
+C:\Users\robin\Desktop\MedAide\MedAide\bin\WebGrease.dll
+C:\Users\robin\Desktop\MedAide\MedAide\bin\System.Web.Helpers.xml
+C:\Users\robin\Desktop\MedAide\MedAide\bin\System.Web.Mvc.xml
+C:\Users\robin\Desktop\MedAide\MedAide\bin\System.Web.Optimization.xml
+C:\Users\robin\Desktop\MedAide\MedAide\bin\System.Web.Razor.xml
+C:\Users\robin\Desktop\MedAide\MedAide\bin\System.Web.WebPages.xml
+C:\Users\robin\Desktop\MedAide\MedAide\bin\System.Web.WebPages.Deployment.xml
+C:\Users\robin\Desktop\MedAide\MedAide\bin\System.Web.WebPages.Razor.xml
+C:\Users\robin\Desktop\MedAide\MedAide\bin\Newtonsoft.Json.xml
+C:\Users\robin\Desktop\MedAide\MedAide\bin\Antlr3.Runtime.pdb
+C:\Users\robin\Desktop\MedAide\MedAide\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\robin\Desktop\MedAide\MedAide\obj\Debug\MedAide.csprojAssemblyReference.cache
+C:\Users\robin\Desktop\MedAide\MedAide\obj\Debug\MedAide.csproj.CopyComplete
+C:\Users\robin\Desktop\MedAide\MedAide\obj\Debug\MedAide.dll
+C:\Users\robin\Desktop\MedAide\MedAide\obj\Debug\MedAide.pdb
+D:\New folder\MedAide\bin\MedAide.dll.config
+D:\New folder\MedAide\bin\MedAide.dll
+D:\New folder\MedAide\bin\MedAide.pdb
+D:\New folder\MedAide\bin\roslyn\csc.exe
+D:\New folder\MedAide\bin\roslyn\csc.exe.config
+D:\New folder\MedAide\bin\roslyn\csc.rsp
+D:\New folder\MedAide\bin\roslyn\csi.exe
+D:\New folder\MedAide\bin\roslyn\csi.exe.config
+D:\New folder\MedAide\bin\roslyn\csi.rsp
+D:\New folder\MedAide\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\New folder\MedAide\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\New folder\MedAide\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\New folder\MedAide\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\New folder\MedAide\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\New folder\MedAide\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\New folder\MedAide\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\New folder\MedAide\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\New folder\MedAide\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\New folder\MedAide\bin\roslyn\Microsoft.Managed.Core.targets
+D:\New folder\MedAide\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\New folder\MedAide\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\New folder\MedAide\bin\roslyn\System.AppContext.dll
+D:\New folder\MedAide\bin\roslyn\System.Collections.Immutable.dll
+D:\New folder\MedAide\bin\roslyn\System.Console.dll
+D:\New folder\MedAide\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\New folder\MedAide\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\New folder\MedAide\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\New folder\MedAide\bin\roslyn\System.Globalization.Calendars.dll
+D:\New folder\MedAide\bin\roslyn\System.IO.Compression.dll
+D:\New folder\MedAide\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\New folder\MedAide\bin\roslyn\System.IO.FileSystem.dll
+D:\New folder\MedAide\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\New folder\MedAide\bin\roslyn\System.Net.Http.dll
+D:\New folder\MedAide\bin\roslyn\System.Net.Sockets.dll
+D:\New folder\MedAide\bin\roslyn\System.Reflection.Metadata.dll
+D:\New folder\MedAide\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\New folder\MedAide\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\New folder\MedAide\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\New folder\MedAide\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\New folder\MedAide\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\New folder\MedAide\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\New folder\MedAide\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\New folder\MedAide\bin\roslyn\System.ValueTuple.dll
+D:\New folder\MedAide\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\New folder\MedAide\bin\roslyn\System.Xml.XmlDocument.dll
+D:\New folder\MedAide\bin\roslyn\System.Xml.XPath.dll
+D:\New folder\MedAide\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\New folder\MedAide\bin\roslyn\vbc.exe
+D:\New folder\MedAide\bin\roslyn\vbc.exe.config
+D:\New folder\MedAide\bin\roslyn\vbc.rsp
+D:\New folder\MedAide\bin\roslyn\VBCSCompiler.exe
+D:\New folder\MedAide\bin\roslyn\VBCSCompiler.exe.config
+D:\New folder\MedAide\bin\Antlr3.Runtime.dll
+D:\New folder\MedAide\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\New folder\MedAide\bin\Microsoft.Web.Infrastructure.dll
+D:\New folder\MedAide\bin\Newtonsoft.Json.dll
+D:\New folder\MedAide\bin\System.Web.Helpers.dll
+D:\New folder\MedAide\bin\System.Web.Mvc.dll
+D:\New folder\MedAide\bin\System.Web.Optimization.dll
+D:\New folder\MedAide\bin\System.Web.Razor.dll
+D:\New folder\MedAide\bin\System.Web.WebPages.Deployment.dll
+D:\New folder\MedAide\bin\System.Web.WebPages.dll
+D:\New folder\MedAide\bin\System.Web.WebPages.Razor.dll
+D:\New folder\MedAide\bin\WebGrease.dll
+D:\New folder\MedAide\bin\System.Web.Helpers.xml
+D:\New folder\MedAide\bin\System.Web.Mvc.xml
+D:\New folder\MedAide\bin\System.Web.Optimization.xml
+D:\New folder\MedAide\bin\System.Web.Razor.xml
+D:\New folder\MedAide\bin\System.Web.WebPages.xml
+D:\New folder\MedAide\bin\System.Web.WebPages.Deployment.xml
+D:\New folder\MedAide\bin\System.Web.WebPages.Razor.xml
+D:\New folder\MedAide\bin\Newtonsoft.Json.xml
+D:\New folder\MedAide\bin\Antlr3.Runtime.pdb
+D:\New folder\MedAide\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\New folder\MedAide\obj\Debug\MedAide.csprojAssemblyReference.cache
+D:\New folder\MedAide\obj\Debug\MedAide.csproj.CoreCompileInputs.cache
+D:\New folder\MedAide\obj\Debug\MedAide.csproj.CopyComplete
+D:\New folder\MedAide\obj\Debug\MedAide.dll
+D:\New folder\MedAide\obj\Debug\MedAide.pdb
+C:\Users\ARNAB\Desktop\MedAide\bin\MedAide.dll.config
+C:\Users\ARNAB\Desktop\MedAide\bin\MedAide.dll
+C:\Users\ARNAB\Desktop\MedAide\bin\MedAide.pdb
+C:\Users\ARNAB\Desktop\MedAide\bin\roslyn\csc.exe
+C:\Users\ARNAB\Desktop\MedAide\bin\roslyn\csc.exe.config
+C:\Users\ARNAB\Desktop\MedAide\bin\roslyn\csc.rsp
+C:\Users\ARNAB\Desktop\MedAide\bin\roslyn\csi.exe
+C:\Users\ARNAB\Desktop\MedAide\bin\roslyn\csi.exe.config
+C:\Users\ARNAB\Desktop\MedAide\bin\roslyn\csi.rsp
+C:\Users\ARNAB\Desktop\MedAide\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ARNAB\Desktop\MedAide\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ARNAB\Desktop\MedAide\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ARNAB\Desktop\MedAide\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ARNAB\Desktop\MedAide\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ARNAB\Desktop\MedAide\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ARNAB\Desktop\MedAide\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ARNAB\Desktop\MedAide\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ARNAB\Desktop\MedAide\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ARNAB\Desktop\MedAide\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ARNAB\Desktop\MedAide\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ARNAB\Desktop\MedAide\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ARNAB\Desktop\MedAide\bin\roslyn\System.AppContext.dll
+C:\Users\ARNAB\Desktop\MedAide\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ARNAB\Desktop\MedAide\bin\roslyn\System.Console.dll
+C:\Users\ARNAB\Desktop\MedAide\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ARNAB\Desktop\MedAide\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ARNAB\Desktop\MedAide\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ARNAB\Desktop\MedAide\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\ARNAB\Desktop\MedAide\bin\roslyn\System.IO.Compression.dll
+C:\Users\ARNAB\Desktop\MedAide\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\ARNAB\Desktop\MedAide\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ARNAB\Desktop\MedAide\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ARNAB\Desktop\MedAide\bin\roslyn\System.Net.Http.dll
+C:\Users\ARNAB\Desktop\MedAide\bin\roslyn\System.Net.Sockets.dll
+C:\Users\ARNAB\Desktop\MedAide\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ARNAB\Desktop\MedAide\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ARNAB\Desktop\MedAide\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ARNAB\Desktop\MedAide\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ARNAB\Desktop\MedAide\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ARNAB\Desktop\MedAide\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ARNAB\Desktop\MedAide\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ARNAB\Desktop\MedAide\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ARNAB\Desktop\MedAide\bin\roslyn\System.ValueTuple.dll
+C:\Users\ARNAB\Desktop\MedAide\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ARNAB\Desktop\MedAide\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ARNAB\Desktop\MedAide\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ARNAB\Desktop\MedAide\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ARNAB\Desktop\MedAide\bin\roslyn\vbc.exe
+C:\Users\ARNAB\Desktop\MedAide\bin\roslyn\vbc.exe.config
+C:\Users\ARNAB\Desktop\MedAide\bin\roslyn\vbc.rsp
+C:\Users\ARNAB\Desktop\MedAide\bin\roslyn\VBCSCompiler.exe
+C:\Users\ARNAB\Desktop\MedAide\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ARNAB\Desktop\MedAide\bin\Antlr3.Runtime.dll
+C:\Users\ARNAB\Desktop\MedAide\bin\EntityFramework.dll
+C:\Users\ARNAB\Desktop\MedAide\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ARNAB\Desktop\MedAide\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ARNAB\Desktop\MedAide\bin\Newtonsoft.Json.dll
+C:\Users\ARNAB\Desktop\MedAide\bin\System.Web.Helpers.dll
+C:\Users\ARNAB\Desktop\MedAide\bin\System.Web.Mvc.dll
+C:\Users\ARNAB\Desktop\MedAide\bin\System.Web.Optimization.dll
+C:\Users\ARNAB\Desktop\MedAide\bin\System.Web.Razor.dll
+C:\Users\ARNAB\Desktop\MedAide\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ARNAB\Desktop\MedAide\bin\System.Web.WebPages.dll
+C:\Users\ARNAB\Desktop\MedAide\bin\System.Web.WebPages.Razor.dll
+C:\Users\ARNAB\Desktop\MedAide\bin\WebGrease.dll
+C:\Users\ARNAB\Desktop\MedAide\bin\EntityFramework.xml
+C:\Users\ARNAB\Desktop\MedAide\bin\System.Web.Helpers.xml
+C:\Users\ARNAB\Desktop\MedAide\bin\System.Web.Mvc.xml
+C:\Users\ARNAB\Desktop\MedAide\bin\System.Web.Optimization.xml
+C:\Users\ARNAB\Desktop\MedAide\bin\System.Web.Razor.xml
+C:\Users\ARNAB\Desktop\MedAide\bin\System.Web.WebPages.xml
+C:\Users\ARNAB\Desktop\MedAide\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ARNAB\Desktop\MedAide\bin\System.Web.WebPages.Razor.xml
+C:\Users\ARNAB\Desktop\MedAide\bin\Newtonsoft.Json.xml
+C:\Users\ARNAB\Desktop\MedAide\bin\Antlr3.Runtime.pdb
+C:\Users\ARNAB\Desktop\MedAide\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ARNAB\Desktop\MedAide\obj\Debug\MedAide.csprojAssemblyReference.cache
+C:\Users\ARNAB\Desktop\MedAide\obj\Debug\MedAide.csproj.CoreCompileInputs.cache
+C:\Users\ARNAB\Desktop\MedAide\obj\Debug\MedAide.csproj.CopyComplete
+C:\Users\ARNAB\Desktop\MedAide\obj\Debug\MedAide.dll
+C:\Users\ARNAB\Desktop\MedAide\obj\Debug\MedAide.pdb
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\MedAide.dll.config
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\MedAide.dll
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\MedAide.pdb
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\roslyn\csc.exe
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\roslyn\csc.exe.config
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\roslyn\csc.rsp
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\roslyn\csi.exe
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\roslyn\csi.exe.config
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\roslyn\csi.rsp
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\roslyn\System.AppContext.dll
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\roslyn\System.Console.dll
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\roslyn\System.IO.Compression.dll
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\roslyn\System.Net.Http.dll
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\roslyn\System.Net.Sockets.dll
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\roslyn\System.ValueTuple.dll
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\roslyn\System.Xml.XPath.dll
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\roslyn\vbc.exe
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\roslyn\vbc.exe.config
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\roslyn\vbc.rsp
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\roslyn\VBCSCompiler.exe
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\Antlr3.Runtime.dll
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\EntityFramework.dll
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\Newtonsoft.Json.dll
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\System.Web.Helpers.dll
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\System.Web.Mvc.dll
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\System.Web.Optimization.dll
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\System.Web.Razor.dll
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\System.Web.WebPages.dll
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\System.Web.WebPages.Razor.dll
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\WebGrease.dll
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\EntityFramework.xml
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\System.Web.Helpers.xml
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\System.Web.Mvc.xml
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\System.Web.Optimization.xml
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\System.Web.Razor.xml
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\System.Web.WebPages.xml
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\System.Web.WebPages.Razor.xml
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\Newtonsoft.Json.xml
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\Antlr3.Runtime.pdb
+C:\Users\robin\Desktop\MedAide\Medaide1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\robin\Desktop\MedAide\Medaide1\obj\Debug\MedAide.csprojAssemblyReference.cache
+C:\Users\robin\Desktop\MedAide\Medaide1\obj\Debug\MedAide.csproj.CopyComplete
+C:\Users\robin\Desktop\MedAide\Medaide1\obj\Debug\MedAide.dll
+C:\Users\robin\Desktop\MedAide\Medaide1\obj\Debug\MedAide.pdb
+C:\Users\robin\Desktop\MedAide\Medaide1\obj\Debug\MedAide.csproj.CoreCompileInputs.cache
+D:\New folder\Medaide1\bin\MedAide.dll.config
+D:\New folder\Medaide1\bin\MedAide.dll
+D:\New folder\Medaide1\bin\MedAide.pdb
+D:\New folder\Medaide1\bin\roslyn\csc.exe
+D:\New folder\Medaide1\bin\roslyn\csc.exe.config
+D:\New folder\Medaide1\bin\roslyn\csc.rsp
+D:\New folder\Medaide1\bin\roslyn\csi.exe
+D:\New folder\Medaide1\bin\roslyn\csi.exe.config
+D:\New folder\Medaide1\bin\roslyn\csi.rsp
+D:\New folder\Medaide1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\New folder\Medaide1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\New folder\Medaide1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\New folder\Medaide1\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\New folder\Medaide1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\New folder\Medaide1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\New folder\Medaide1\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\New folder\Medaide1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\New folder\Medaide1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\New folder\Medaide1\bin\roslyn\Microsoft.Managed.Core.targets
+D:\New folder\Medaide1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\New folder\Medaide1\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\New folder\Medaide1\bin\roslyn\System.AppContext.dll
+D:\New folder\Medaide1\bin\roslyn\System.Collections.Immutable.dll
+D:\New folder\Medaide1\bin\roslyn\System.Console.dll
+D:\New folder\Medaide1\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\New folder\Medaide1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\New folder\Medaide1\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\New folder\Medaide1\bin\roslyn\System.Globalization.Calendars.dll
+D:\New folder\Medaide1\bin\roslyn\System.IO.Compression.dll
+D:\New folder\Medaide1\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\New folder\Medaide1\bin\roslyn\System.IO.FileSystem.dll
+D:\New folder\Medaide1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\New folder\Medaide1\bin\roslyn\System.Net.Http.dll
+D:\New folder\Medaide1\bin\roslyn\System.Net.Sockets.dll
+D:\New folder\Medaide1\bin\roslyn\System.Reflection.Metadata.dll
+D:\New folder\Medaide1\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\New folder\Medaide1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\New folder\Medaide1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\New folder\Medaide1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\New folder\Medaide1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\New folder\Medaide1\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\New folder\Medaide1\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\New folder\Medaide1\bin\roslyn\System.ValueTuple.dll
+D:\New folder\Medaide1\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\New folder\Medaide1\bin\roslyn\System.Xml.XmlDocument.dll
+D:\New folder\Medaide1\bin\roslyn\System.Xml.XPath.dll
+D:\New folder\Medaide1\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\New folder\Medaide1\bin\roslyn\vbc.exe
+D:\New folder\Medaide1\bin\roslyn\vbc.exe.config
+D:\New folder\Medaide1\bin\roslyn\vbc.rsp
+D:\New folder\Medaide1\bin\roslyn\VBCSCompiler.exe
+D:\New folder\Medaide1\bin\roslyn\VBCSCompiler.exe.config
+D:\New folder\Medaide1\bin\Antlr3.Runtime.dll
+D:\New folder\Medaide1\bin\EntityFramework.dll
+D:\New folder\Medaide1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\New folder\Medaide1\bin\Microsoft.Web.Infrastructure.dll
+D:\New folder\Medaide1\bin\Newtonsoft.Json.dll
+D:\New folder\Medaide1\bin\System.Web.Helpers.dll
+D:\New folder\Medaide1\bin\System.Web.Mvc.dll
+D:\New folder\Medaide1\bin\System.Web.Optimization.dll
+D:\New folder\Medaide1\bin\System.Web.Razor.dll
+D:\New folder\Medaide1\bin\System.Web.WebPages.Deployment.dll
+D:\New folder\Medaide1\bin\System.Web.WebPages.dll
+D:\New folder\Medaide1\bin\System.Web.WebPages.Razor.dll
+D:\New folder\Medaide1\bin\WebGrease.dll
+D:\New folder\Medaide1\bin\EntityFramework.xml
+D:\New folder\Medaide1\bin\System.Web.Helpers.xml
+D:\New folder\Medaide1\bin\System.Web.Mvc.xml
+D:\New folder\Medaide1\bin\System.Web.Optimization.xml
+D:\New folder\Medaide1\bin\System.Web.Razor.xml
+D:\New folder\Medaide1\bin\System.Web.WebPages.xml
+D:\New folder\Medaide1\bin\System.Web.WebPages.Deployment.xml
+D:\New folder\Medaide1\bin\System.Web.WebPages.Razor.xml
+D:\New folder\Medaide1\bin\Newtonsoft.Json.xml
+D:\New folder\Medaide1\bin\Antlr3.Runtime.pdb
+D:\New folder\Medaide1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\New folder\Medaide1\obj\Debug\MedAide.csprojAssemblyReference.cache
+D:\New folder\Medaide1\obj\Debug\MedAide.csproj.CoreCompileInputs.cache
+D:\New folder\Medaide1\obj\Debug\MedAide.csproj.CopyComplete
+D:\New folder\Medaide1\obj\Debug\MedAide.dll
+D:\New folder\Medaide1\obj\Debug\MedAide.pdb
+C:\Users\ARNAB\Desktop\try\bin\MedAide.dll.config
+C:\Users\ARNAB\Desktop\try\bin\MedAide.dll
+C:\Users\ARNAB\Desktop\try\bin\MedAide.pdb
+C:\Users\ARNAB\Desktop\try\bin\roslyn\csc.exe
+C:\Users\ARNAB\Desktop\try\bin\roslyn\csc.exe.config
+C:\Users\ARNAB\Desktop\try\bin\roslyn\csc.rsp
+C:\Users\ARNAB\Desktop\try\bin\roslyn\csi.exe
+C:\Users\ARNAB\Desktop\try\bin\roslyn\csi.exe.config
+C:\Users\ARNAB\Desktop\try\bin\roslyn\csi.rsp
+C:\Users\ARNAB\Desktop\try\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ARNAB\Desktop\try\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ARNAB\Desktop\try\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ARNAB\Desktop\try\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ARNAB\Desktop\try\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ARNAB\Desktop\try\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ARNAB\Desktop\try\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ARNAB\Desktop\try\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ARNAB\Desktop\try\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ARNAB\Desktop\try\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ARNAB\Desktop\try\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ARNAB\Desktop\try\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ARNAB\Desktop\try\bin\roslyn\System.AppContext.dll
+C:\Users\ARNAB\Desktop\try\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ARNAB\Desktop\try\bin\roslyn\System.Console.dll
+C:\Users\ARNAB\Desktop\try\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ARNAB\Desktop\try\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ARNAB\Desktop\try\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ARNAB\Desktop\try\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\ARNAB\Desktop\try\bin\roslyn\System.IO.Compression.dll
+C:\Users\ARNAB\Desktop\try\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\ARNAB\Desktop\try\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ARNAB\Desktop\try\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ARNAB\Desktop\try\bin\roslyn\System.Net.Http.dll
+C:\Users\ARNAB\Desktop\try\bin\roslyn\System.Net.Sockets.dll
+C:\Users\ARNAB\Desktop\try\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ARNAB\Desktop\try\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ARNAB\Desktop\try\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ARNAB\Desktop\try\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ARNAB\Desktop\try\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ARNAB\Desktop\try\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ARNAB\Desktop\try\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ARNAB\Desktop\try\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ARNAB\Desktop\try\bin\roslyn\System.ValueTuple.dll
+C:\Users\ARNAB\Desktop\try\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ARNAB\Desktop\try\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ARNAB\Desktop\try\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ARNAB\Desktop\try\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ARNAB\Desktop\try\bin\roslyn\vbc.exe
+C:\Users\ARNAB\Desktop\try\bin\roslyn\vbc.exe.config
+C:\Users\ARNAB\Desktop\try\bin\roslyn\vbc.rsp
+C:\Users\ARNAB\Desktop\try\bin\roslyn\VBCSCompiler.exe
+C:\Users\ARNAB\Desktop\try\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ARNAB\Desktop\try\bin\Antlr3.Runtime.dll
+C:\Users\ARNAB\Desktop\try\bin\EntityFramework.dll
+C:\Users\ARNAB\Desktop\try\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ARNAB\Desktop\try\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ARNAB\Desktop\try\bin\Newtonsoft.Json.dll
+C:\Users\ARNAB\Desktop\try\bin\System.Web.Helpers.dll
+C:\Users\ARNAB\Desktop\try\bin\System.Web.Mvc.dll
+C:\Users\ARNAB\Desktop\try\bin\System.Web.Optimization.dll
+C:\Users\ARNAB\Desktop\try\bin\System.Web.Razor.dll
+C:\Users\ARNAB\Desktop\try\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ARNAB\Desktop\try\bin\System.Web.WebPages.dll
+C:\Users\ARNAB\Desktop\try\bin\System.Web.WebPages.Razor.dll
+C:\Users\ARNAB\Desktop\try\bin\WebGrease.dll
+C:\Users\ARNAB\Desktop\try\bin\EntityFramework.xml
+C:\Users\ARNAB\Desktop\try\bin\System.Web.Helpers.xml
+C:\Users\ARNAB\Desktop\try\bin\System.Web.Mvc.xml
+C:\Users\ARNAB\Desktop\try\bin\System.Web.Optimization.xml
+C:\Users\ARNAB\Desktop\try\bin\System.Web.Razor.xml
+C:\Users\ARNAB\Desktop\try\bin\System.Web.WebPages.xml
+C:\Users\ARNAB\Desktop\try\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ARNAB\Desktop\try\bin\System.Web.WebPages.Razor.xml
+C:\Users\ARNAB\Desktop\try\bin\Newtonsoft.Json.xml
+C:\Users\ARNAB\Desktop\try\bin\Antlr3.Runtime.pdb
+C:\Users\ARNAB\Desktop\try\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ARNAB\Desktop\try\obj\Debug\MedAide.csprojAssemblyReference.cache
+C:\Users\ARNAB\Desktop\try\obj\Debug\MedAide.csproj.CoreCompileInputs.cache
+C:\Users\ARNAB\Desktop\try\obj\Debug\MedAide.csproj.CopyComplete
+C:\Users\ARNAB\Desktop\try\obj\Debug\MedAide.dll
+C:\Users\ARNAB\Desktop\try\obj\Debug\MedAide.pdb
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\MedAide.dll.config
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\MedAide.dll
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\MedAide.pdb
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\roslyn\csc.exe
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\roslyn\csc.exe.config
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\roslyn\csc.rsp
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\roslyn\csi.exe
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\roslyn\csi.exe.config
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\roslyn\csi.rsp
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\roslyn\System.AppContext.dll
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\roslyn\System.Console.dll
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\roslyn\System.IO.Compression.dll
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\roslyn\System.Net.Http.dll
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\roslyn\System.Net.Sockets.dll
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\roslyn\System.ValueTuple.dll
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\roslyn\System.Xml.XPath.dll
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\roslyn\vbc.exe
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\roslyn\vbc.exe.config
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\roslyn\vbc.rsp
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\roslyn\VBCSCompiler.exe
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\Antlr3.Runtime.dll
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\EntityFramework.dll
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\Newtonsoft.Json.dll
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\System.Web.Helpers.dll
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\System.Web.Mvc.dll
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\System.Web.Optimization.dll
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\System.Web.Razor.dll
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\System.Web.WebPages.Deployment.dll
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\System.Web.WebPages.dll
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\System.Web.WebPages.Razor.dll
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\WebGrease.dll
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\EntityFramework.xml
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\System.Web.Helpers.xml
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\System.Web.Mvc.xml
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\System.Web.Optimization.xml
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\System.Web.Razor.xml
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\System.Web.WebPages.xml
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\System.Web.WebPages.Deployment.xml
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\System.Web.WebPages.Razor.xml
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\Newtonsoft.Json.xml
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\Antlr3.Runtime.pdb
+C:\Users\robin\Desktop\MedAideGoggle\try\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\robin\Desktop\MedAideGoggle\try\obj\Debug\MedAide.csprojAssemblyReference.cache
+C:\Users\robin\Desktop\MedAideGoggle\try\obj\Debug\MedAide.csproj.CoreCompileInputs.cache
+C:\Users\robin\Desktop\MedAideGoggle\try\obj\Debug\MedAide.csproj.CopyComplete
+C:\Users\robin\Desktop\MedAideGoggle\try\obj\Debug\MedAide.dll
+C:\Users\robin\Desktop\MedAideGoggle\try\obj\Debug\MedAide.pdb
+C:\Users\robin\Desktop\try\bin\MedAide.dll.config
+C:\Users\robin\Desktop\try\bin\MedAide.dll
+C:\Users\robin\Desktop\try\bin\MedAide.pdb
+C:\Users\robin\Desktop\try\bin\roslyn\csc.exe
+C:\Users\robin\Desktop\try\bin\roslyn\csc.exe.config
+C:\Users\robin\Desktop\try\bin\roslyn\csc.rsp
+C:\Users\robin\Desktop\try\bin\roslyn\csi.exe
+C:\Users\robin\Desktop\try\bin\roslyn\csi.exe.config
+C:\Users\robin\Desktop\try\bin\roslyn\csi.rsp
+C:\Users\robin\Desktop\try\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\robin\Desktop\try\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\robin\Desktop\try\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\robin\Desktop\try\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\robin\Desktop\try\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\robin\Desktop\try\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\robin\Desktop\try\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\robin\Desktop\try\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\robin\Desktop\try\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\robin\Desktop\try\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\robin\Desktop\try\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\robin\Desktop\try\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\robin\Desktop\try\bin\roslyn\System.AppContext.dll
+C:\Users\robin\Desktop\try\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\robin\Desktop\try\bin\roslyn\System.Console.dll
+C:\Users\robin\Desktop\try\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\robin\Desktop\try\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\robin\Desktop\try\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\robin\Desktop\try\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\robin\Desktop\try\bin\roslyn\System.IO.Compression.dll
+C:\Users\robin\Desktop\try\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\robin\Desktop\try\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\robin\Desktop\try\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\robin\Desktop\try\bin\roslyn\System.Net.Http.dll
+C:\Users\robin\Desktop\try\bin\roslyn\System.Net.Sockets.dll
+C:\Users\robin\Desktop\try\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\robin\Desktop\try\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\robin\Desktop\try\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\robin\Desktop\try\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\robin\Desktop\try\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\robin\Desktop\try\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\robin\Desktop\try\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\robin\Desktop\try\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\robin\Desktop\try\bin\roslyn\System.ValueTuple.dll
+C:\Users\robin\Desktop\try\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\robin\Desktop\try\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\robin\Desktop\try\bin\roslyn\System.Xml.XPath.dll
+C:\Users\robin\Desktop\try\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\robin\Desktop\try\bin\roslyn\vbc.exe
+C:\Users\robin\Desktop\try\bin\roslyn\vbc.exe.config
+C:\Users\robin\Desktop\try\bin\roslyn\vbc.rsp
+C:\Users\robin\Desktop\try\bin\roslyn\VBCSCompiler.exe
+C:\Users\robin\Desktop\try\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\robin\Desktop\try\bin\Antlr3.Runtime.dll
+C:\Users\robin\Desktop\try\bin\EntityFramework.dll
+C:\Users\robin\Desktop\try\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\robin\Desktop\try\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\robin\Desktop\try\bin\Newtonsoft.Json.dll
+C:\Users\robin\Desktop\try\bin\System.Web.Helpers.dll
+C:\Users\robin\Desktop\try\bin\System.Web.Mvc.dll
+C:\Users\robin\Desktop\try\bin\System.Web.Optimization.dll
+C:\Users\robin\Desktop\try\bin\System.Web.Razor.dll
+C:\Users\robin\Desktop\try\bin\System.Web.WebPages.Deployment.dll
+C:\Users\robin\Desktop\try\bin\System.Web.WebPages.dll
+C:\Users\robin\Desktop\try\bin\System.Web.WebPages.Razor.dll
+C:\Users\robin\Desktop\try\bin\WebGrease.dll
+C:\Users\robin\Desktop\try\bin\EntityFramework.xml
+C:\Users\robin\Desktop\try\bin\System.Web.Helpers.xml
+C:\Users\robin\Desktop\try\bin\System.Web.Mvc.xml
+C:\Users\robin\Desktop\try\bin\System.Web.Optimization.xml
+C:\Users\robin\Desktop\try\bin\System.Web.Razor.xml
+C:\Users\robin\Desktop\try\bin\System.Web.WebPages.xml
+C:\Users\robin\Desktop\try\bin\System.Web.WebPages.Deployment.xml
+C:\Users\robin\Desktop\try\bin\System.Web.WebPages.Razor.xml
+C:\Users\robin\Desktop\try\bin\Newtonsoft.Json.xml
+C:\Users\robin\Desktop\try\bin\Antlr3.Runtime.pdb
+C:\Users\robin\Desktop\try\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\robin\Desktop\try\obj\Debug\MedAide.csprojAssemblyReference.cache
+C:\Users\robin\Desktop\try\obj\Debug\MedAide.csproj.CoreCompileInputs.cache
+C:\Users\robin\Desktop\try\obj\Debug\MedAide.csproj.CopyComplete
+C:\Users\robin\Desktop\try\obj\Debug\MedAide.dll
+C:\Users\robin\Desktop\try\obj\Debug\MedAide.pdb
+C:\Users\ARNAB\Desktop\MedAideFinal\obj\Debug\MedAide.csprojAssemblyReference.cache
+C:\Users\ARNAB\Desktop\MedAideFinal\obj\Debug\MedAide.csproj.CoreCompileInputs.cache
+C:\Users\ARNAB\Desktop\MedAideFinal\obj\Debug\MedAide.dll
+C:\Users\ARNAB\Desktop\MedAideFinal\obj\Debug\MedAide.pdb
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\MedAide.dll.config
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\MedAide.dll
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\MedAide.pdb
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\roslyn\csc.exe
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\roslyn\csc.exe.config
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\roslyn\csc.rsp
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\roslyn\csi.exe
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\roslyn\csi.exe.config
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\roslyn\csi.rsp
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\roslyn\System.AppContext.dll
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\roslyn\System.Console.dll
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\roslyn\System.IO.Compression.dll
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\roslyn\System.Net.Http.dll
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\roslyn\System.Net.Sockets.dll
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\roslyn\System.ValueTuple.dll
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\roslyn\vbc.exe
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\roslyn\vbc.exe.config
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\roslyn\vbc.rsp
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\roslyn\VBCSCompiler.exe
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\Antlr3.Runtime.dll
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\EntityFramework.dll
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\Newtonsoft.Json.dll
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\System.Web.Helpers.dll
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\System.Web.Mvc.dll
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\System.Web.Optimization.dll
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\System.Web.Razor.dll
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\System.Web.WebPages.dll
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\System.Web.WebPages.Razor.dll
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\WebGrease.dll
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\EntityFramework.xml
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\System.Web.Helpers.xml
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\System.Web.Mvc.xml
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\System.Web.Optimization.xml
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\System.Web.Razor.xml
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\System.Web.WebPages.xml
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\System.Web.WebPages.Razor.xml
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\Newtonsoft.Json.xml
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\Antlr3.Runtime.pdb
+C:\Users\ARNAB\Desktop\MedAideFinal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ARNAB\Desktop\MedAideFinal\obj\Debug\MedAide.csproj.CopyComplete
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\MedAide.dll.config
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\MedAide.dll
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\MedAide.pdb
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\roslyn\csc.exe
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\roslyn\csc.exe.config
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\roslyn\csc.rsp
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\roslyn\csi.exe
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\roslyn\csi.exe.config
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\roslyn\csi.rsp
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\roslyn\Microsoft.Managed.Core.targets
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\roslyn\Microsoft.Win32.Primitives.dll
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\roslyn\System.AppContext.dll
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\roslyn\System.Collections.Immutable.dll
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\roslyn\System.Console.dll
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\roslyn\System.Diagnostics.StackTrace.dll
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\roslyn\System.Globalization.Calendars.dll
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\roslyn\System.IO.Compression.dll
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\roslyn\System.IO.Compression.ZipFile.dll
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\roslyn\System.IO.FileSystem.dll
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\roslyn\System.IO.FileSystem.Primitives.dll
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\roslyn\System.Net.Http.dll
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\roslyn\System.Net.Sockets.dll
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\roslyn\System.Reflection.Metadata.dll
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\roslyn\System.Security.Cryptography.Encoding.dll
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\roslyn\System.Security.Cryptography.Primitives.dll
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\roslyn\System.Text.Encoding.CodePages.dll
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\roslyn\System.Threading.Tasks.Extensions.dll
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\roslyn\System.ValueTuple.dll
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\roslyn\System.Xml.ReaderWriter.dll
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\roslyn\System.Xml.XmlDocument.dll
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\roslyn\System.Xml.XPath.dll
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\roslyn\System.Xml.XPath.XDocument.dll
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\roslyn\vbc.exe
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\roslyn\vbc.exe.config
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\roslyn\vbc.rsp
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\roslyn\VBCSCompiler.exe
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\roslyn\VBCSCompiler.exe.config
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\Antlr3.Runtime.dll
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\EntityFramework.dll
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\Microsoft.Web.Infrastructure.dll
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\Newtonsoft.Json.dll
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\System.Web.Helpers.dll
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\System.Web.Mvc.dll
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\System.Web.Optimization.dll
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\System.Web.Razor.dll
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\System.Web.WebPages.Deployment.dll
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\System.Web.WebPages.dll
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\System.Web.WebPages.Razor.dll
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\WebGrease.dll
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\EntityFramework.xml
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\System.Web.Helpers.xml
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\System.Web.Mvc.xml
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\System.Web.Optimization.xml
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\System.Web.Razor.xml
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\System.Web.WebPages.xml
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\System.Web.WebPages.Deployment.xml
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\System.Web.WebPages.Razor.xml
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\Newtonsoft.Json.xml
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\Antlr3.Runtime.pdb
+H:\Varsity\3.2\Lab Projects\MedAideFinal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\Varsity\3.2\Lab Projects\MedAideFinal\obj\Debug\MedAide.csprojAssemblyReference.cache
+H:\Varsity\3.2\Lab Projects\MedAideFinal\obj\Debug\MedAide.csproj.CoreCompileInputs.cache
+H:\Varsity\3.2\Lab Projects\MedAideFinal\obj\Debug\MedAide.csproj.CopyComplete
+H:\Varsity\3.2\Lab Projects\MedAideFinal\obj\Debug\MedAide.dll
+H:\Varsity\3.2\Lab Projects\MedAideFinal\obj\Debug\MedAide.pdb
